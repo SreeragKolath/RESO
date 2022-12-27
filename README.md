@@ -72,6 +72,25 @@ This file contains the different endpoints our bot can use.
 **Use the chatbot after training as**
 - rasa shell
 
+## Use Cases:
+
+**FAQS**:
+
+-**Check-in timings**
+
+     User: What are your check-in timings?
+
+     Bot: You can check-in between 10 AM - 11 AM. please contact our desk staff for early/late check-in
+
+-**Check-out timings**
+
+     User:  What are your check-out timings?
+
+     Bot: You can check-out between 12 PM - 1 PM. please contact our desk staff for late check-out
+
+
+
+
 
 
 
