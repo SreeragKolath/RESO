@@ -11,4 +11,4 @@ The chatbot responds to and handle the following basic functionalities
 - Booking resort
 - Handle FAQs like available room types, contact number, canceling policy etc.
 - Handle Greetings
-- storing the details to database(**MySQL**)
+- storing necessary information to database(**MySQL**)
