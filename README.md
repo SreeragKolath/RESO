@@ -90,8 +90,9 @@ Bot: Please provide your Valid Phone Number:
 
 User: 9567342361
 
-Bot: What kind of Residence Facility Are you looking for?\n
--   ? Our Tariff Plans: : You selected: (Use arrow keys)                                                                                                  -  »1: LUXURY COTTAGE ROOMS WITH MOUNTAIN VIEW (LUXURY COTTAGE ROOMS WITH MOUNTAIN VIEW)
+Bot: What kind of Residence Facility Are you looking for?
+
+-   ? Our Tariff Plans: : You selected: (Use arrow keys)                                                                                                  - » 1: LUXURY COTTAGE ROOMS WITH MOUNTAIN VIEW (LUXURY COTTAGE ROOMS WITH MOUNTAIN VIEW)
 -   2: SUITE COTTAGE ROOMS WITH NATURE VIEW (SUITE COTTAGE ROOMS WITH NATURE VIEW)
 -   3: TREE TOP STUDIO COTTAGE (TREE TOP STUDIO COTTAGE)
 -   4: TREE TOP DUPLEX COTTAGE (TREE TOP DUPLEX COTTAGE)
@@ -103,6 +104,7 @@ User: (Clicks on Button 1)
  - (Clicking on buttons is handled similarly)
  
 Bot: Please pick any compliment Activities with Reso?
+
 -    ? Our activities: : You selected: (Use arrow keys)                                                                                                    - »  1: Forest Edge walking to the View Point (Forest Edge walking to the View Point)
 -    2: Meditation in the lap of Mother Nature (Meditation in the lap of Mother Nature)
 -    3: Night Trekking-The Program to see stars on the Land (Night Trekking-The Program to see stars on the Land)
