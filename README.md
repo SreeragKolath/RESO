@@ -12,3 +12,5 @@ The chatbot responds to and handle the following basic functionalities
 - Handle FAQs like available room types, contact number, canceling policy etc.
 - Handle Greetings
 - storing necessary information to database(**MySQL**)
+
+
