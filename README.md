@@ -91,6 +91,7 @@ This file contains the different endpoints our bot can use.
 
 
 
+
 ## Requirements
 
  is used for this project and use a fresh virtual environment for installing all dependencies.
