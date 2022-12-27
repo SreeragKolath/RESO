@@ -15,6 +15,19 @@ The chatbot responds to and handle the following basic functionalities
 
 ## RASA File Configuration:
 
+**__init__.py**:
+
+An empty file that helps python find your actions
+
+**data/rules.yml**:
+
+In rules.yml file, 4 rules were created:
+
+- To say goodbye anytime the user says goodbye.
+- To say “I’m a bot” if bot_challenge intent is triggered.
+- To activate the resort booking form when the resort_booking intent is triggered.
+- Submit form, to confirm the details collected from the consumer.
+
 
 
 
