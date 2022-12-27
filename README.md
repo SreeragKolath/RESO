@@ -64,7 +64,7 @@ This file contains the different endpoints our bot can use.
 ## Usage:
 
 **Train the chatbot**
-- 
+- rasa train
 
 **Run actions.py in another terminal and keep it running**
 - rasa run actions
