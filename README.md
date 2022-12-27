@@ -55,6 +55,12 @@ This file contains the different endpoints our bot can use.
 - Finally, **ActionSubmit** class is made which inherits the Action from rasa sdk, here, we call the data update function to store the information collected using the slots, and a message for the user is uttered.
 - Used **Regular Expressions** to validate each slots correctly.
 
+## Requirements
+
+**Python 3.9.13** is used for this project and use a fresh virtual environment for installing all dependencies.
+
+- **pip install -r requirements.txt**
+
 ## Usage:
 
 **Train the chatbot**
@@ -66,35 +72,124 @@ This file contains the different endpoints our bot can use.
 **Use the chatbot after training as**
 - rasa shell
 
+## Use Cases:
+
+**Book Resort**
+
+User: I want to book the resort.
+
+Bot: Please provide your Complete Name:
+
+User: Rahul S
+
+Bot: Please provide your Valid Email Address:
+
+User: rahulnair@gmail.com
+
+Bot: Please provide your Valid Phone Number:
+
+User: 9567342361
+
+Bot: What kind of Residence Facility Are you looking for?
+  -   ? Our Tariff Plans: You selected: (Use arrow keys)                                                                                                   -    1: LUXURY COTTAGE ROOMS WITH MOUNTAIN VIEW (LUXURY COTTAGE ROOMS WITH MOUNTAIN VIEW)
+  -   2: SUITE COTTAGE ROOMS WITH NATURE VIEW (SUITE COTTAGE ROOMS WITH NATURE VIEW)
+  -   3: TREE TOP STUDIO COTTAGE (TREE TOP STUDIO COTTAGE)
+  -   4: TREE TOP DUPLEX COTTAGE (TREE TOP DUPLEX COTTAGE)
+  -   5: MUD STUDIO COTTAGE (MUD STUDIO COTTAGE)
+  -   6: MUD DUPLEX COTTAGE (MUD DUPLEX COTTAGE)
+  -   Type out your own message...
+ 
+User: (Clicks on Button 1)
+ - (Clicking on other buttons is handled similarly)
+ 
+Bot:  Please pick any compliment Activities with Reso?
+  -    ? Our activities: You selected: (Use arrow keys)                                                                                                     -    1: Forest Edge walking to the View Point (Forest Edge walking to the View Point)
+  -    2: Meditation in the lap of Mother Nature (Meditation in the lap of Mother Nature)
+  -    3: Night Trekking-The Program to see stars on the Land (Night Trekking-The Program to see stars on the Land)
+  -    4: Sun Rise & Bison Sighting (Sun Rise & Bison Sighting)
+  -    5: Come Back to Your Roots (Come Back to Your Roots)
+  -    6: A Truly Wild Welcome (A Truly Wild Welcome)
+  -    Type out your own message... 
+User: (Clicks on Button 1)
+ - (Clicking on other buttons is handled similarly)
+
+Bot: How many adults (10 or above years old) will be staying ?
+  -    ? Number of Adults: You selected: (Use arrow keys)                                                                                                   -    1: 1 - 2 (1 - 2)
+  -    2: 3 - 4 (3 - 4)
+  -    3: 5 people or more (5 people or more)
+  -    Type out your own message...
+User: (Clicks on Button 1)
+ - (Clicking on other buttons is handled similarly)
+
+Bot: How many children (below 10 years old) will be staying?
+  -     ? Number of Children: : You selected: (Use arrow keys)                                                                                             -     1: 0 (0)
+  -     2: 1 - 2 (1 - 2)
+  -     3: 3 - 4 (3 - 4)
+  -     Type out your own message...
+User: (Clicks on Button 1)
+ - (Clicking on other buttons is handled similarly)
+
+Bot: When you like to have check-in ? Eg: 12/12/2022
+
+User: 20/12/2022
+
+Bot: When would you like to checkout ? Eg: 14/12/2022
+
+User: 21/12/2022
+
+Bot: We have received your booking Request
+- Full name of the registrant: Rahul S
+- Email address: rahulnair@gmail.com
+- Phone number: 9567342361
+- Number of adults staying: 1 - 2
+- Number of children staying: 0
+- Room type: LUXURY COTTAGE ROOMS WITH MOUNTAIN VIEW
+- Compliment Activitiy:Forest Edge walking to the View Point
+- Check-in date: 20/12/2022
+- Check-out date: 21/12/2022
+- front desk staff will connect you within 10 minutes .
+- Thank you!
+     
+**The details will be updated in the database**
 
 
+**FAQS**:
 
+- **Check-in timings**
 
+     User: What are your check-in timings?
 
+     Bot: You can check-in between 10 AM - 11 AM. please contact our desk staff for early/late check-in
 
+- **Check-out timings**
 
+     User:  What are your check-out timings?
 
+     Bot: You can check-out between 12 PM - 1 PM. please contact our desk staff for late check-out
 
+- **cancel-bookings**
 
+     User:  how do i cancel my bookings?
 
+     Bot: For cancellation, please contact our desk support at +91 3456789769!
 
+- **parking**
 
+     User:  Does the resort provide parking?
 
+     Bot: Yes, we do provide free parking for all our resort guests and visitors with 24*7 security Surveillance!
+  
+- **luggage**
 
+     User:  Where i keep my luggage?
 
+     Bot: Resort guests and visitors can store their luggage at the front desk security room. luggage can be held at the resort before or after your stay for up to 12           hours.
+  
+- **pool**
 
+     User:  Does the resort have pool?
 
-
-
-
-
-
-
-
-
-## Requirements
-
- is used for this project and use a fresh virtual environment for installing all dependencies.
+     Bot: Yes, Luxury pool measuring 12m long by 5m wide with elephant spouting water from their trunks. pool timings from 10 AM to 7 PM.
 
 
 
