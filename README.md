@@ -13,6 +13,14 @@ The chatbot responds to and handle the following basic functionalities
 - Handle Greetings
 - storing necessary information to database(**MySQL**)
 
+## Requirements
+
+ is used for this project and use a fresh virtual environment for installing all dependencies.
+ 
+ pip install -r requirements.txt
+
+
+
 
 
 
