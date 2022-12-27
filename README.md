@@ -90,15 +90,15 @@ Bot: Please provide your Valid Phone Number:
 
 User: 9567342361
 
-Bot: What kind of Residence Facility Are you looking for?
-   ? Our Tariff Plans: : You selected: (Use arrow keys)                                                                                                                 
- » 1: LUXURY COTTAGE ROOMS WITH MOUNTAIN VIEW (LUXURY COTTAGE ROOMS WITH MOUNTAIN VIEW)
-   2: SUITE COTTAGE ROOMS WITH NATURE VIEW (SUITE COTTAGE ROOMS WITH NATURE VIEW)
-   3: TREE TOP STUDIO COTTAGE (TREE TOP STUDIO COTTAGE)
-   4: TREE TOP DUPLEX COTTAGE (TREE TOP DUPLEX COTTAGE)
-   5: MUD STUDIO COTTAGE (MUD STUDIO COTTAGE)
-   6: MUD DUPLEX COTTAGE (MUD DUPLEX COTTAGE)
-   Type out your own message...
+Bot: What kind of Residence Facility Are you looking for?\n
+-   ? Our Tariff Plans: : You selected: (Use arrow keys)                                                                                                               
+-  » 1: LUXURY COTTAGE ROOMS WITH MOUNTAIN VIEW (LUXURY COTTAGE ROOMS WITH MOUNTAIN VIEW)
+-    2: SUITE COTTAGE ROOMS WITH NATURE VIEW (SUITE COTTAGE ROOMS WITH NATURE VIEW)
+-   3: TREE TOP STUDIO COTTAGE (TREE TOP STUDIO COTTAGE)
+-   4: TREE TOP DUPLEX COTTAGE (TREE TOP DUPLEX COTTAGE)
+-  5: MUD STUDIO COTTAGE (MUD STUDIO COTTAGE)
+-  6: MUD DUPLEX COTTAGE (MUD DUPLEX COTTAGE)
+-  Type out your own message...
  
 User: (Clicks on Button 1)
 (Clicking on buttons is handled similarly)
