@@ -191,8 +191,11 @@ Bot: We have received your booking Request
 
      Bot: Yes, Luxury pool measuring 12m long by 5m wide with elephant spouting water from their trunks. pool timings from 10 AM to 7 PM.
 
+## More Information:
 
+Learn more about Rasa [here](https://rasa.com/docs/rasa/playground/).
 
+Watch Rasa Masterclass videos [here](https://www.youtube.com/playlist?list=PL75e0qA87dlHQny7z43NduZHPo6qd-cRc)
 
 
 
