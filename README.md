@@ -51,9 +51,27 @@ This file contains the different endpoints our bot can use.
 
 **actions.py**:
 - added customized actions for the bot, the details collected from the consumer is stored as dataframe, created a function **data_update** which connects with MySQL and saves it in the database.
-Secondly, created a class **ValidateBookForm** in this class, we're validating the slots one by one using Python.
-Finally, **ActionSubmit** class is made which inherits the Action from rasa sdk, here, we call the data update function to store the information collected using the slots, and a message for the user is uttered.
-Used **Regular Expressions** to validate each slots correctly.
+- Secondly, created a class **ValidateBookForm** in this class, we're validating the slots one by one using Python.
+- Finally, **ActionSubmit** class is made which inherits the Action from rasa sdk, here, we call the data update function to store the information collected using the slots, and a message for the user is uttered.
+- Used **Regular Expressions** to validate each slots correctly.
+
+## Usage:
+
+**Train the chatbot**
+- rasa train
+
+**Run actions.py in another terminal and keep it running**
+- rasa run actions
+
+**Use the chatbot after training as**
+- rasa shell
+
+
+
+
+
+
+
 
 
 
