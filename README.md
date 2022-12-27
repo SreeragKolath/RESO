@@ -28,6 +28,21 @@ In rules.yml file, 4 rules were created:
 - To activate the resort booking form when the resort_booking intent is triggered.
 - Submit form, to confirm the details collected from the consumer.
 
+**data/stories.yml**:
+
+- This is required for Rasa Core.
+- It is used to provide the conversational flow to our bot.
+
+**domain.yml**:
+The Domain file is a directory of everything the assistant knows:
+
+- **Responses**: These are the things the assistant can say to users.
+- **Intents**: These are the category of things user say.
+- **Slots**: These are variables remembered over the course of a conversation.
+- **Entities**: Pieces of information extracted from incoming text.
+- **Forms and Actions**: These add application logic and extend what our assistant can do.
+
+
 
 
 
