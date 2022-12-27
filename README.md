@@ -9,8 +9,12 @@ This project is based on the **Resort booking** business use case. The chatbot c
 The chatbot responds to and handle the following basic functionalities
 
 - Booking resort
-- Handle FAQs like available room types, contact number, canceling policy etc.
+- Handle FAQs
 - Handle Greetings
 - storing necessary information to database(**MySQL**)
+
+
+
+
 
 
