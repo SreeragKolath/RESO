@@ -66,35 +66,11 @@ This file contains the different endpoints our bot can use.
 **Use the chatbot after training as**
 - rasa shell
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Requirements
 
- is used for this project and use a fresh virtual environment for installing all dependencies.
+**Python 3.9.13** is used for this project and use a fresh virtual environment for installing all dependencies.
+
+- **pip install -r requirements.txt**
 
 
 
