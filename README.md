@@ -92,44 +92,43 @@ User: 9567342361
 
 Bot: What kind of Residence Facility Are you looking for?\n
 -   ? Our Tariff Plans: : You selected: (Use arrow keys)                                                                                                               
--  » 1: LUXURY COTTAGE ROOMS WITH MOUNTAIN VIEW (LUXURY COTTAGE ROOMS WITH MOUNTAIN VIEW)
--    2: SUITE COTTAGE ROOMS WITH NATURE VIEW (SUITE COTTAGE ROOMS WITH NATURE VIEW)
+-  »1: LUXURY COTTAGE ROOMS WITH MOUNTAIN VIEW (LUXURY COTTAGE ROOMS WITH MOUNTAIN VIEW)
+-   2: SUITE COTTAGE ROOMS WITH NATURE VIEW (SUITE COTTAGE ROOMS WITH NATURE VIEW)
 -   3: TREE TOP STUDIO COTTAGE (TREE TOP STUDIO COTTAGE)
 -   4: TREE TOP DUPLEX COTTAGE (TREE TOP DUPLEX COTTAGE)
--  5: MUD STUDIO COTTAGE (MUD STUDIO COTTAGE)
--  6: MUD DUPLEX COTTAGE (MUD DUPLEX COTTAGE)
--  Type out your own message...
+-   5: MUD STUDIO COTTAGE (MUD STUDIO COTTAGE)
+-   6: MUD DUPLEX COTTAGE (MUD DUPLEX COTTAGE)
+-   Type out your own message...
  
 User: (Clicks on Button 1)
-(Clicking on buttons is handled similarly)
+ - (Clicking on buttons is handled similarly)
  
 Bot: Please pick any compliment Activities with Reso?
-? Our activities: : You selected: (Use arrow keys)                                                                                                                      » 1: Forest Edge walking to the View Point (Forest Edge walking to the View Point)
-   2: Meditation in the lap of Mother Nature (Meditation in the lap of Mother Nature)
-   3: Night Trekking-The Program to see stars on the Land (Night Trekking-The Program to see stars on the Land)
-   4: Sun Rise & Bison Sighting (Sun Rise & Bison Sighting)
-   5: Come Back to Your Roots (Come Back to Your Roots)
-   6: A Truly Wild Welcome (A Truly Wild Welcome)
-   Type out your own message...
-   
+-    ? Our activities: : You selected: (Use arrow keys)                                                                                                                 - »  1: Forest Edge walking to the View Point (Forest Edge walking to the View Point)
+-    2: Meditation in the lap of Mother Nature (Meditation in the lap of Mother Nature)
+-    3: Night Trekking-The Program to see stars on the Land (Night Trekking-The Program to see stars on the Land)
+-    4: Sun Rise & Bison Sighting (Sun Rise & Bison Sighting)
+-    5: Come Back to Your Roots (Come Back to Your Roots)
+-    6: A Truly Wild Welcome (A Truly Wild Welcome)
+-    Type out your own message... 
 User: (Clicks on Button 1)
-(Clicking on buttons is handled similarly)
+ - (Clicking on buttons is handled similarly)
 
 Bot: How many adults (10 or above years old) will be staying ?
-? Number of Adults: : You selected: (Use arrow keys)                                                                                                                    » 1: 1 - 2 (1 - 2)
-   2: 3 - 4 (3 - 4)
-   3: 5 people or more (5 people or more)
-   Type out your own message...
+-    ? Number of Adults: : You selected: (Use arrow keys)                                                                                                                - »  1: 1 - 2 (1 - 2)
+-    2: 3 - 4 (3 - 4)
+-    3: 5 people or more (5 people or more)
+-    Type out your own message...
 User: (Clicks on Button 1)
-(Clicking on buttons is handled similarly)
+ - (Clicking on buttons is handled similarly)
 
 Bot: How many children (below 10 years old) will be staying?
-? Number of Children: : You selected: (Use arrow keys)                                                                                                                  » 1: 0 (0)
-   2: 1 - 2 (1 - 2)
-   3: 3 - 4 (3 - 4)
-   Type out your own message...
+-    ? Number of Children: : You selected: (Use arrow keys)                                                                                                             -  » 1: 0 (0)
+-     2: 1 - 2 (1 - 2)
+-     3: 3 - 4 (3 - 4)
+-     Type out your own message...
 User: (Clicks on Button 1)
-(Clicking on buttons is handled similarly)
+ - (Clicking on buttons is handled similarly)
 
 Bot: When you like to have check-in ? Eg: 12/12/2022
 
@@ -140,17 +139,17 @@ Bot: When would you like to checkout ? Eg: 14/12/2022
 User: 21/12/2022
 
 Bot: We have received your booking Request
-     Full name of the registrant: Rahul S
-     Email address: rahulnair@gmail.com
-     Phone number: 9567342361
-     Number of adults staying: 1 - 2
-     Number of children staying: 0
-     Room type: LUXURY COTTAGE ROOMS WITH MOUNTAIN VIEW
-     Compliment Activitiy:Forest Edge walking to the View Point
-     Check-in date: 20/12/2022
-     Check-out date: 21/12/2022
-     front desk staff will connect you within 10 minutes .
-     Thank you!
+     - Full name of the registrant: Rahul S
+     - Email address: rahulnair@gmail.com
+     - Phone number: 9567342361
+     - Number of adults staying: 1 - 2
+     - Number of children staying: 0
+     - Room type: LUXURY COTTAGE ROOMS WITH MOUNTAIN VIEW
+     - Compliment Activitiy:Forest Edge walking to the View Point
+     - Check-in date: 20/12/2022
+     - Check-out date: 21/12/2022
+     - front desk staff will connect you within 10 minutes .
+     - Thank you!
      
 **The details will be updated in the database**
 
