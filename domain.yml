@@ -1,0 +1,285 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - heart_thankyou
+  - mood_unhappy
+  - bot_challenge
+  - book_resort
+  - about_packages
+  - info_check_in
+  - info_out
+  - info_parking
+  - info_wifi
+  - info_pool
+  - info_luggage
+  - stop
+  - info_cancel_policy
+
+slots:
+  name:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: book_form
+            requested_slot: name
+  email:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: book_form
+            requested_slot: email
+
+  phone_number:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: book_form
+            requested_slot: phone_number
+
+  tariff_type:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: book_form
+            requested_slot: tariff_type
+  addition_act:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: book_form
+            requested_slot: addition_act
+
+  adults:
+    type: float
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: book_form
+            requested_slot: adults
+
+  children:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: book_form
+            requested_slot: children
+
+  check_in:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: book_form
+            requested_slot: check_in
+
+  check_out:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: book_form
+            requested_slot: check_out
+
+forms:
+  book_form:
+    required_slots:
+      - name
+      - email
+      - phone_number
+      - tariff_type
+      - addition_act
+      - adults
+      - children
+      - check_in
+      - check_out
+
+
+responses:
+  utter_greet:
+  - text: "Hey! Welcome to Reso!!! Your Resort Booking Assistant. Assigned to answer your queries. How can i help you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+
+  utter_ask_name:
+    - text: "Please provide your Complete Name:"
+
+  utter_ask_email:
+    - text: "Please provide your Valid Email Address: "
+
+  utter_ask_phone_number:
+    - text: "Please provide your Valid Phone Number:"
+
+  utter_ask_tariff_type:
+    - text: " What kind of Residence Facility Are you looking for? "
+      elements:
+        - title: "Our Tariff Plans:"
+          subtitle: "You selected:"
+          buttons:
+            - title: LUXURY COTTAGE ROOMS WITH MOUNTAIN VIEW
+              payload: LUXURY COTTAGE ROOMS WITH MOUNTAIN VIEW
+            - title: SUITE COTTAGE ROOMS WITH NATURE VIEW
+              payload: SUITE COTTAGE ROOMS WITH NATURE VIEW
+            - title: TREE TOP STUDIO COTTAGE
+              payload: TREE TOP STUDIO COTTAGE
+            - title: TREE TOP DUPLEX COTTAGE
+              payload: TREE TOP DUPLEX COTTAGE
+            - title: MUD STUDIO COTTAGE
+              payload: MUD STUDIO COTTAGE
+            - title: MUD DUPLEX COTTAGE
+              payload: MUD DUPLEX COTTAGE
+
+  utter_ask_addition_act:
+    - text: " Please pick any compliment Activities with Reso? "
+      elements:
+        - title: "Our activities:"
+          subtitle: "You selected:"
+          buttons:
+            - title: Forest Edge walking to the View Point
+              payload: Forest Edge walking to the View Point
+            - title: Meditation in the lap of Mother Nature
+              payload: Meditation in the lap of Mother Nature
+            - title: Night Trekking-The Program to see stars on the Land
+              payload: Night Trekking-The Program to see stars on the Land
+            - title: Sun Rise & Bison Sighting
+              payload: Sun Rise & Bison Sighting
+            - title: Come Back to Your Roots
+              payload: Come Back to Your Roots
+            - title: A Truly Wild Welcome
+              payload: A Truly Wild Welcome
+
+  utter_ask_adults:
+    - text: "How many adults (10 or above years old) will be staying ?"
+      elements:
+        - title: "Number of Adults:"
+          subtitle: "You selected:"
+          buttons:
+            - title: 1 - 2
+              payload: 1 - 2
+            - title: 3 - 4
+              payload: 3 - 4
+            - title: 5 people or more
+              payload: 5 people or more
+
+  utter_ask_children:
+    - text: "How many children (below 10 years old) will be staying?"
+      elements:
+        - title: "Number of Children:"
+          subtitle: "You selected:"
+          buttons:
+            - title: 0
+              payload: 0
+            - title: 1 - 2
+              payload: 1 - 2
+            - title: 3 - 4
+              payload: 3 - 4
+
+  utter_ask_check_in:
+    - text: "When you like to have check-in ? Eg: 12/12/2022"
+
+  utter_ask_check_out:
+    - text: "When would you like to checkout ? Eg: 14/12/2022"
+
+  utter_about_packages:
+  - text: "we do offers special Packages right now: 
+            1.Honeymoon Package - Bliss of Love Plan your ultimate honeymoon getaway with Reso!.
+            2.Exploration package - Let us guide you through the Exotic location and sights!"
+
+  utter_info_check_in:
+  - text: "You can check-in between 10 AM - 11 AM. please contact our desk staff for early/late check-in"
+
+  utter_info_out:
+  - text: "You can check-out between 12 PM - 1 PM. please contact our desk staff for late check-out"
+
+  utter_info_parking:
+  - text: "Yes, we do provide free parking for all our resort guests and visitors with 24*7 security Surveillance!"
+
+  utter_heart_thankyou:
+  - text: "It's a pleasure assisting you. see you again!"
+
+  utter_info_wifi:
+  - text: "Yes, we have free wifi in our main building, main lobby, lounging area and function room. Password access is available upon request from our front desk staff."
+
+  utter_info_pool:
+  - text: "Luxury pool measuring 12m long by 5m wide with elephant spouting water from their trunks. pool timings from 10 AM to 7 PM"
+
+  utter_info_luggage:
+  - text: "Resort guests and visitors can store their luggage at the front desk security room. luggage can be held at the resort before or after your stay for up to 12 hours."
+
+  utter_proceed:
+  - text: "Do you wish to cancel the booking?"
+
+  utter_thanking:
+  - text: "Thank you! see you again!"
+
+  utter_info_cancel_policy:
+  - text: "For cancellation, please contact our desk support at +91 3456789769!"
+
+
+actions:
+  - utter_greet
+  - utter_happy
+  - utter_cheer_up
+  - utter_did_that_help
+  - utter_goodbye
+  - utter_ask_name
+  - utter_ask_email
+  - utter_ask_phone_number
+  - utter_ask_tariff_type
+  - utter_ask_addition_act
+  - utter_ask_adults
+  - utter_ask_children
+  - utter_ask_check_in
+  - utter_ask_check_out
+  - utter_about_packages
+  - utter_info_check_in
+  - utter_heart_thankyou
+  - utter_info_out
+  - utter_info_parking
+  - utter_info_wifi
+  - utter_info_pool
+  - utter_info_luggage
+  - utter_proceed
+  - utter_thanking
+  - utter_info_cancel_policy
+  - action_submit
+  - validate_book_form
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
