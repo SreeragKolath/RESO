@@ -1,3 +1,5 @@
 ## RASA CHATBOT- RESORT BOOKING
 
-A simple chatbot using **RASA framework(V.3)**.
+A simple chatbot using **RASA framework(V.3)**. 
+
+## About
