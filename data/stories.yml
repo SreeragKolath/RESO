@@ -1,0 +1,116 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: resort_package
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: about_packages
+  - action: utter_about_packages
+  - intent: heart_thankyou
+  - action: utter_heart_thankyou
+
+- story: faq_check_in
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: info_check_in
+  - action: utter_info_check_in
+  - intent: heart_thankyou
+  - action: utter_heart_thankyou
+
+- story: faq_check_out
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: info_out
+  - action: utter_info_out
+  - intent: heart_thankyou
+  - action: utter_heart_thankyou
+
+- story: faq_parking_info
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: info_parking
+  - action: utter_info_parking
+  - intent: heart_thankyou
+  - action: utter_heart_thankyou
+
+- story: faq_wifi
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: info_wifi
+  - action: utter_info_wifi
+  - intent: heart_thankyou
+  - action: utter_heart_thankyou
+
+- story: faq_pool
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: info_pool
+  - action: utter_info_pool
+  - intent: heart_thankyou
+  - action: utter_heart_thankyou
+
+- story: faq_luggage
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: info_luggage
+  - action: utter_info_luggage
+  - intent: heart_thankyou
+  - action: utter_heart_thankyou
+
+- story: info_resort_booking_cancellation
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: book_resort
+  - action: book_form
+  - active_loop: book_form
+  - intent: stop
+  - action: utter_proceed
+  - intent: affirm
+  - action: action_deactivate_loop
+  - active_loop: null
+  - action: utter_thanking
+
+- story: faq_cancel
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: info_cancel_policy
+  - action: utter_info_cancel_policy
+  - intent: heart_thankyou
+  - action: utter_heart_thankyou

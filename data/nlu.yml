@@ -1,0 +1,205 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - good morning
+    - good evening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: heart_thankyou
+  examples: |
+    - thank you
+    - thanks
+    - thank
+    - thanking you
+    - great! Thanks
+    - thanks for the information
+    - thank you bot
+    - thanks bot
+    - thanks eh
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - really sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: book_resort
+  examples: |
+    - i want to book your resort?
+    - can you please help me to book a resort?
+    - how can i book your resort?
+    - how to book a resort?
+    - make a reservation
+    - need to book a resort
+
+- intent: about_packages
+  examples: |
+    - different packages available
+    - packages  of the resort
+    - packages provided by the resort
+    - what are the packages available
+    - tell me about different packages offered by the resort
+
+- intent: info_check_in
+  examples: |
+    - Check-in time
+    - What is the check-in time?
+    - From what time can you start checking in?
+    - From what time can check-in?
+    - When is the check-in time?
+    - Can you tell me the check-in time?
+    - Resort check-in time
+    - When can I check in?
+    - Can you tell me when to check in?
+    - When is check-in?
+    - Check in
+    - Check in
+
+- intent: info_out
+  examples: |
+    - Check-out time
+    - What is the check-out time?
+    - From what time can you start checking out?
+    - From what time can check-out?
+    - When is the check-out time?
+    - Can you tell me the check-out time?
+    - Resort check-out time
+    - When can I check out?
+    - Can you tell me when to check out?
+    - When is check-out?
+    - Check out
+    - Checking out
+
+- intent: info_parking
+  examples: |
+    - Does the resort have parking facilities?
+    - is there car parking facility available?
+    - where is the resort car parking?
+    - is there parking available?
+    - resort parking
+    - car parking facility
+    - where is the resort parking
+    - car parking area
+
+- intent: info_wifi
+  examples: |
+    - wifi?
+    - resort offer wifi?
+    - can i use wifi service?
+    - internet?
+    - internet availability
+    - can i get free wifi
+    - network 
+    - Does the resort have free internet?
+    - does the resort provide free wifi
+
+- intent: info_pool
+  examples: |
+    - pool
+    - pool facilities
+    - can i use the pool?
+    - resort pool facility
+    - is there a swimming pool in the resort?
+
+- intent: info_luggage
+  examples: |
+    - luggage?
+    - where i kept my luggage?
+    - store my luggage
+    - keep my luggage?
+
+- intent: stop
+  examples: |
+    - I want to stop
+    - I gave it wrong.
+    - stop the booking
+    - I dont want a room
+    - I dont need this booking
+    - I want to stop this room booking
+
+- intent: info_cancel_policy
+  examples: |
+    - booking cancel
+    - cancel my booking
+    - please cancel my booking
+    - cancel bookings
+    - I need to cancel the booking
