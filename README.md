@@ -76,18 +76,30 @@ This file contains the different endpoints our bot can use.
 
 **FAQS**:
 
--**Check-in timings**
+- **Check-in timings**
 
      User: What are your check-in timings?
 
      Bot: You can check-in between 10 AM - 11 AM. please contact our desk staff for early/late check-in
 
--**Check-out timings**
+- **Check-out timings**
 
      User:  What are your check-out timings?
 
      Bot: You can check-out between 12 PM - 1 PM. please contact our desk staff for late check-out
 
+- **cancel-bookings**
+
+     User:  how do i cancel my bookings?
+
+     Bot: For cancellation, please contact our desk support at +91 3456789769!
+
+- **parking**
+
+     User:  Does the resort provide parking?
+
+     Bot: Yes, we do provide free parking for all our resort guests and visitors with 24*7 security Surveillance!
+  
 
 
 
