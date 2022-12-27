@@ -37,10 +37,24 @@ In rules.yml file, 4 rules were created:
 The Domain file is a directory of everything the assistant knows:
 
 - **Responses**: These are the things the assistant can say to users.
-- **Intents**: These are the category of things user say.
-- **Slots**: These are variables remembered over the course of a conversation.
-- **Entities**: Pieces of information extracted from incoming text.
+- **Intents**: lists all intents used in your NLU data and conversation training data.
+- **Slots**: act as a key-value store which can be used to store information the user provided as well as information gathered about the outside world.
+- **Entities**: The entities section lists all entities that can be extracted by any entity extractor in your NLU pipeline.
 - **Forms and Actions**: These add application logic and extend what our assistant can do.
+
+
+**config.yml**:
+configuration of your NLU and Core models.
+
+**endpoints.yml**:
+This file contains the different endpoints our bot can use.
+
+**actions.py**:
+- added customized actions for the bot, the details collected from the consumer is stored as dataframe, created a function **data_update** which connects with MySQL and saves it in the database.
+Secondly, created a class **ValidateBookForm** in this class, we're validating the slots one by one using Python.
+Finally, **ActionSubmit** class is made which inherits the Action from rasa sdk, here, we call the data update function to store the information collected using the slots, and a message for the user is uttered.
+Used **Regular Expressions** to validate each slots correctly.
+
 
 
 
