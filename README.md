@@ -100,8 +100,17 @@ This file contains the different endpoints our bot can use.
 
      Bot: Yes, we do provide free parking for all our resort guests and visitors with 24*7 security Surveillance!
   
+- **luggage**
 
+     User:  Where i keep my luggage?
 
+     Bot: Resort guests and visitors can store their luggage at the front desk security room. luggage can be held at the resort before or after your stay for up to 12           hours.
+  
+- **pool**
+
+     User:  Does the resort have pool?
+
+     Bot: Yes, Luxury pool measuring 12m long by 5m wide with elephant spouting water from their trunks. pool timings from 10 AM to 7 PM.
 
 
 
