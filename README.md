@@ -139,17 +139,17 @@ Bot: When would you like to checkout ? Eg: 14/12/2022
 User: 21/12/2022
 
 Bot: We have received your booking Request
-     - Full name of the registrant: Rahul S
-     - Email address: rahulnair@gmail.com
-     - Phone number: 9567342361
-     - Number of adults staying: 1 - 2
-     - Number of children staying: 0
-     - Room type: LUXURY COTTAGE ROOMS WITH MOUNTAIN VIEW
-     - Compliment Activitiy:Forest Edge walking to the View Point
-     - Check-in date: 20/12/2022
-     - Check-out date: 21/12/2022
-     - front desk staff will connect you within 10 minutes .
-     - Thank you!
+- Full name of the registrant: Rahul S
+- Email address: rahulnair@gmail.com
+- Phone number: 9567342361
+- Number of adults staying: 1 - 2
+- Number of children staying: 0
+- Room type: LUXURY COTTAGE ROOMS WITH MOUNTAIN VIEW
+- Compliment Activitiy:Forest Edge walking to the View Point
+- Check-in date: 20/12/2022
+- Check-out date: 21/12/2022
+- front desk staff will connect you within 10 minutes .
+- Thank you!
      
 **The details will be updated in the database**
 
