@@ -55,6 +55,12 @@ This file contains the different endpoints our bot can use.
 - Finally, **ActionSubmit** class is made which inherits the Action from rasa sdk, here, we call the data update function to store the information collected using the slots, and a message for the user is uttered.
 - Used **Regular Expressions** to validate each slots correctly.
 
+## Requirements
+
+**Python 3.9.13** is used for this project and use a fresh virtual environment for installing all dependencies.
+
+- **pip install -r requirements.txt**
+
 ## Usage:
 
 **Train the chatbot**
@@ -65,12 +71,6 @@ This file contains the different endpoints our bot can use.
 
 **Use the chatbot after training as**
 - rasa shell
-
-## Requirements
-
-**Python 3.9.13** is used for this project and use a fresh virtual environment for installing all dependencies.
-
-- **pip install -r requirements.txt**
 
 
 
