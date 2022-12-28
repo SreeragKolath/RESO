@@ -206,6 +206,13 @@ Bot: We have received your booking Request
      User:  Does the resort have pool?
 
      Bot: Yes, Luxury pool measuring 12m long by 5m wide with elephant spouting water from their trunks. pool timings from 10 AM to 7 PM.
+     
+- **thanking**
+
+     User:  thanks
+
+     Bot: It's a pleasure assisting you. see you again!
+
 
 ## More Information:
 
