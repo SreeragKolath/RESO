@@ -126,13 +126,15 @@ User: (Clicks on Button 1)
  - (Clicking on other buttons is handled similarly)
 
 Bot: How many children (below 10 years old) will be staying?
-  -   ? Number of Children: : You selected: (Use arrow keys)                                                                                                             -     1: 0 (0)
-  -     2: 1 - 2 (1 - 2)
-  -     3: 3 - 4 (3 - 4)
-  -     Type out your own message...
-  -     
+  -    ?  Number of Children: : You selected: (Use arrow keys)                                                                                                    -   
+  -    » 1: 0 (0)
+  -    2: 1 - 2 (1 - 2)
+  -    3: 3 - 4 (3 - 4)
+  -    Type out your own message...
 User: (Clicks on Button 1)
  - (Clicking on other buttons is handled similarly)
+
+
 
 Bot: When you like to have check-in ? Eg: 12/12/2022
 
