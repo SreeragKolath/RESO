@@ -95,16 +95,19 @@ Bot: Please provide your Valid Phone Number:
 User: 9567342361
 
 Bot: What kind of Residence Facility Are you looking for?
-  -   ? Our Tariff Plans: You selected: (Use arrow keys)                                                                                                   -    1: LUXURY COTTAGE ROOMS WITH MOUNTAIN VIEW (LUXURY COTTAGE ROOMS WITH MOUNTAIN VIEW)
-  -   2: SUITE COTTAGE ROOMS WITH NATURE VIEW (SUITE COTTAGE ROOMS WITH NATURE VIEW)
-  -   3: TREE TOP STUDIO COTTAGE (TREE TOP STUDIO COTTAGE)
-  -   4: TREE TOP DUPLEX COTTAGE (TREE TOP DUPLEX COTTAGE)
-  -   5: MUD STUDIO COTTAGE (MUD STUDIO COTTAGE)
-  -   6: MUD DUPLEX COTTAGE (MUD DUPLEX COTTAGE)
-  -   Type out your own message...
- 
+  -    ?  Our Tariff Plans: You selected: (Use arrow keys)                                                                                                    -   
+  -    » 1: LUXURY COTTAGE ROOMS WITH MOUNTAIN VIEW (LUXURY COTTAGE ROOMS WITH MOUNTAIN VIEW)
+  -    2: SUITE COTTAGE ROOMS WITH NATURE VIEW (SUITE COTTAGE ROOMS WITH NATURE VIEW)
+  -    3: TREE TOP STUDIO COTTAGE (TREE TOP STUDIO COTTAGE)
+  -    4: TREE TOP DUPLEX COTTAGE (TREE TOP DUPLEX COTTAGE)
+  -    5: MUD STUDIO COTTAGE (MUD STUDIO COTTAGE)
+  -    6: MUD DUPLEX COTTAGE (MUD DUPLEX COTTAGE)
+  -    Type out your own message...
+    
 User: (Clicks on Button 1)
- - (Clicking on other buttons is handled similarly)
+  - (Clicking on other buttons is handled similarly)
+
+
  
 Bot:  Please pick any compliment Activities with Reso?
   -    ? Our activities: You selected: (Use arrow keys)                                                                                                     -    1: Forest Edge walking to the View Point (Forest Edge walking to the View Point)
@@ -123,7 +126,7 @@ Bot: How many adults (10 or above years old) will be staying ?
   -    2: 3 - 4 (3 - 4)
   -    3: 5 people or more (5 people or more)
   -    Type out your own message...
-  -    
+    
 User: (Clicks on Button 1)
   - (Clicking on other buttons is handled similarly)
 
@@ -133,7 +136,7 @@ Bot: How many children (below 10 years old) will be staying?
   -    2: 1 - 2 (1 - 2)
   -    3: 3 - 4 (3 - 4)
   -    Type out your own message...
-  -    
+   
 User: (Clicks on Button 1)
  - (Clicking on other buttons is handled similarly)
 
