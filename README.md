@@ -118,7 +118,7 @@ User: (Clicks on Button 1)
  - (Clicking on other buttons is handled similarly)
 
 Bot: How many adults (10 or above years old) will be staying ?
-  -    ? Number of Adults: You selected: (Use arrow keys)                                                                                                   -    1: 1 - 2 (1 - 2)
+  -    ? Number of Adults: You selected: (Use arrow keys)                                                                                                   -    1: 1 -   -    2 (1 - 2)
   -    2: 3 - 4 (3 - 4)
   -    3: 5 people or more (5 people or more)
   -    Type out your own message...
@@ -126,10 +126,11 @@ User: (Clicks on Button 1)
  - (Clicking on other buttons is handled similarly)
 
 Bot: How many children (below 10 years old) will be staying?
-  -     ? Number of Children: : You selected: (Use arrow keys)                                                                                                           -     1: 0 - (0)
+  -   ? Number of Children: : You selected: (Use arrow keys)                                                                                                             -     1: 0 (0)
   -     2: 1 - 2 (1 - 2)
   -     3: 3 - 4 (3 - 4)
   -     Type out your own message...
+  -     
 User: (Clicks on Button 1)
  - (Clicking on other buttons is handled similarly)
 
