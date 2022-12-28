@@ -108,17 +108,20 @@ User: (Clicks on Button 1)
   - (Clicking on other buttons is handled similarly)
 
 
- 
-Bot:  Please pick any compliment Activities with Reso?
-  -    ? Our activities: You selected: (Use arrow keys)                                                                                                     -    1: Forest Edge walking to the View Point (Forest Edge walking to the View Point)
+ Bot: Please pick any compliment Activities with Reso?
+  -    ?  Our activities: You selected: (Use arrow keys)                                                                                                    -   
+  -    » 1: Forest Edge walking to the View Point (Forest Edge walking to the View Point)
   -    2: Meditation in the lap of Mother Nature (Meditation in the lap of Mother Nature)
   -    3: Night Trekking-The Program to see stars on the Land (Night Trekking-The Program to see stars on the Land)
   -    4: Sun Rise & Bison Sighting (Sun Rise & Bison Sighting)
   -    5: Come Back to Your Roots (Come Back to Your Roots)
   -    6: A Truly Wild Welcome (A Truly Wild Welcome)
-  -    Type out your own message... 
+  -    Type out your own message...
+    
 User: (Clicks on Button 1)
   - (Clicking on other buttons is handled similarly)
+
+
 
 Bot: How many adults (10 or above years old) will be staying ?
   -    ?  Number of Adults: You selected: (Use arrow keys)                                                                                                    -   
