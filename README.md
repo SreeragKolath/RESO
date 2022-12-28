@@ -115,7 +115,7 @@ Bot:  Please pick any compliment Activities with Reso?
   -    6: A Truly Wild Welcome (A Truly Wild Welcome)
   -    Type out your own message... 
 User: (Clicks on Button 1)
- - (Clicking on other buttons is handled similarly)
+  - (Clicking on other buttons is handled similarly)
 
 Bot: How many adults (10 or above years old) will be staying ?
   -    ?  Number of Adults: You selected: (Use arrow keys)                                                                                                    -   
@@ -124,7 +124,7 @@ Bot: How many adults (10 or above years old) will be staying ?
   -    3: 5 people or more (5 people or more)
   -    Type out your own message...
 User: (Clicks on Button 1)
- - (Clicking on other buttons is handled similarly)
+  - (Clicking on other buttons is handled similarly)
 
 Bot: How many children (below 10 years old) will be staying?
   -    ?  Number of Children: : You selected: (Use arrow keys)                                                                                                    -   
