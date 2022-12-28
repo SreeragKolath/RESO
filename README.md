@@ -76,6 +76,10 @@ This file contains the different endpoints our bot can use.
 
 **Book Resort**
 
+User: Hi!
+
+Bot: Hey! Welcome to Reso!!! Your Resort Booking Assistant. Assigned to answer your queries. How can i help you?
+
 User: I want to book the resort.
 
 Bot: Please provide your Complete Name:
@@ -122,7 +126,7 @@ User: (Clicks on Button 1)
  - (Clicking on other buttons is handled similarly)
 
 Bot: How many children (below 10 years old) will be staying?
-  -     ? Number of Children: : You selected: (Use arrow keys)                                                                                             -     1: 0 (0)
+  -     ? Number of Children: : You selected: (Use arrow keys)                                                                                                           -     1: 0 - (0)
   -     2: 1 - 2 (1 - 2)
   -     3: 3 - 4 (3 - 4)
   -     Type out your own message...
